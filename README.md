@@ -262,3 +262,25 @@
  2013  git commit -m"revert"
  
  2014  git push
+
+# exercise 2
+
+2018  git checkout -b ft/home-page-redesign
+
+ 2019  git checkout main
+
+ 2020  git commit -am"bundle3exercise2"
+
+ 2021  git checkout ft/home-page-redesign
+
+ 2022  git rebase main
+
+ 2023  git add .
+
+ 2024  git commit -m"hundele3exercise2"
+
+ 2025  git push
+
+ 2026  git push --set-upstream origin ft/home-page-redesign
+ 
+ 2027  git checkout main
