@@ -282,5 +282,17 @@
  2025  git push
 
  2026  git push --set-upstream origin ft/home-page-redesign
- 
+
  2027  git checkout main
+ # bundle 4
+ # exercise 1
+
+ 2034  git checkout main
+
+ 2035  git remote add git-copy https://github.com/tuyisenge250/the_gym_work_bundle4.git
+
+ 2036  git commit -am"bundle4exercise1"
+
+ 2037  git push origin
+ 
+ 2038  git push git-copy
