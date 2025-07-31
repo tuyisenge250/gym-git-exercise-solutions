@@ -284,8 +284,9 @@
  2026  git push --set-upstream origin ft/home-page-redesign
 
  2027  git checkout main
+
  # bundle 4
- # exercise 1
+ # Exercise 1
 
  2034  git checkout main
 
@@ -296,3 +297,5 @@
  2037  git push origin
  
  2038  git push git-copy
+
+# Exercise 2
