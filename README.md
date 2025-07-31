@@ -56,34 +56,52 @@
 
  Exercises 2
   echo home.html
+
  1995  echo >home.html
+
  1996  git status
+
  1997  git init
+
  1998  git status
+
  1999  git stash -u
- 2000  git stash
- 2001  git status
- 2002  git stash -u
+
  2003  git add .
+
  2004  git stash
- 2005  git commit -m"first commit"
- 2006  git stash
+
  2007  git stash -u
+
  2008  echo >team.html
+
  2009  git stash -u
+
  2010  git stash list
+
  2011  git apply stash@{1}
+
  2012  git stash apply stash@{1}
+
  2013  git stash list
+
  2014  git stash drop stash@{1}
+
  2015  git stash list
+
  2016  git stash pop stash@{1}
+
  1990  git add .
+
  1991  git commit -m"hundle1exercise2"
+
  1992  git push
- 1993  git stash -u
- 1994  git pop
+ 
  1995  git stash pop
+
  1996  git status
+
  1997  git stash list
+
+ 1998 git resort team.html
 
