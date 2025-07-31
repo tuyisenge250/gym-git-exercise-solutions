@@ -54,8 +54,9 @@
  
  2023  git branch -d test
 
- Exercises 2
-  echo home.html
+ # Exercises 2
+
+ echo home.html
 
  1995  echo >home.html
 
@@ -104,4 +105,25 @@
  1997  git stash list
 
  1998 git resort team.html
+
+ # bundle 2
+ # exercises 1
+
+ 1987  git branch ft/bundle-2 
+
+ 1988  git branch
+
+ 1993  git checkout ft/bundle-2
+
+ 1994  echo >services.html
+
+ 1995  git add .
+
+ 1996  git commit -"change in ft/bundle-2"
+
+ 1998  git commit -m"change in ft/bundle-2"
+
+ 1999  git push
+
+ 2000  git push --set-upstream origin ft/bundle-2
 
