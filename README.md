@@ -208,3 +208,57 @@
  2044  git commit -m"merged and conflit resolved"
  
  2045  git push
+
+ # bundle 3 
+ # exercises 1
+ 1988  git checkout -b ft/team-page
+
+ 1989  git add .
+
+ 1990  git commit -m"bundle3exercise1"
+
+ 1991  git push
+
+ 1992  git checkout main
+
+ 1993  git chechout -b ft/contact-page
+
+ 1994  git branch
+
+ 1995  git checkout -b ft/contact-page
+
+ 1996  git checkout ft/team-page 
+
+ 1998  git log -oneline
+
+ 1999  git log --oneline
+
+ 2000  git show 878fd6f
+
+ 2001  git checkout ft/contact-page
+
+ 2002  git cherry-pick 878fd6f0202a4a70240b42e3b022216831ee7739
+
+ 2003  git add .
+
+ 2004  git commit -m"git cherry-pick"
+
+ 2005  git status
+
+ 2006  git push
+
+ 2007  git checkout -b ft/faq-page
+
+ 2008  git add .
+
+ 2009  git commit -m"faq-page commit"
+
+ 2010  git push
+
+ 2011  git revert 878fd6f0202a4a70240b42e3b022216831ee7739
+
+ 2012  git add .
+
+ 2013  git commit -m"revert"
+ 
+ 2014  git push
