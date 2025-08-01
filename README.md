@@ -338,3 +338,18 @@
 
  1990  git push
 
+# Bundle 6
+
+# Exercise 1
+
+ 1992  git checkout -b "exercise1"
+
+ 1994  git branch exercise1
+
+ 1995  git add .
+
+ 1996  git commit -m"exercise1"
+
+ 1997  git push --set-upstream origin exercise1
+
+ # Exercise 2
