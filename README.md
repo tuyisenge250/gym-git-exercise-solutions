@@ -326,8 +326,9 @@
   2053  git commit -m "Footer changes squashing"
 
   2054  git push origin ft/squashing
-  
- # Exercise
+
+# hundle 5
+# Exercise 2
 
 1995  cd ..
 
