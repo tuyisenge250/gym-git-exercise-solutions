@@ -361,5 +361,15 @@
  2001  git add .
 
  2002  git commit -m"new-bug-fix"
- 
+
  2003  git push --set-upstream origin "new-bug-fix"
+
+ # Exercise 3
+ 
+ 2006  git checkout -b "hot-fix"
+
+ 2007  git add .
+
+ 2008  git commit -mf"hot fix"
+
+ 2009  git push --set-upstream origin "hot-fix"
