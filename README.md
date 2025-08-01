@@ -300,16 +300,40 @@
  # exercise 2
 
   2039  git checkout -b ft/footer
+
   2040  git add .
+
   2041 git commit -m "Add some changes in ft/footer branch"
+
   2042  git add  .
+
   2043  git commit -m "Add a second commit in ft/footer branch"
+
   2044  git push origin main
+
   2045  git push origin ft/footer
+
   2046  git checkout main
+
   2047  git branch ft/squashing
+
   2048  git checkout ft/squashing
+
   2049  git merge --squash ft/footer
+
   2050  git status
+
   2053  git commit -m "Footer changes squashing"
+
   2054  git push origin ft/squashing
+  
+ # Exercise
+
+1995  cd ..
+
+1996  git clone https://github.com/tuyisenge250/git-cafe-exercise.git
+
+ 1989  git commit -am"index edited"
+
+ 1990  git push
+
