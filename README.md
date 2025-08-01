@@ -353,3 +353,13 @@
  1997  git push --set-upstream origin exercise1
 
  # Exercise 2
+
+ 1999  git checkout -b "new-bug-fix"
+
+ 2000  git branch
+
+ 2001  git add .
+
+ 2002  git commit -m"new-bug-fix"
+ 
+ 2003  git push --set-upstream origin "new-bug-fix"
